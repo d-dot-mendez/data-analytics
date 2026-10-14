@@ -1,0 +1,48 @@
+Before doing any other investigation, list two or three questions that this infographic
+and explanation of methodology raise in your mind.
+I knew about people eating ice cream when they experience a break up, but I did not know that extended to other food as well. i suppose my question is why do people go to food to make them feel better about a break up?
+How did the participants decide what food would be their comfort food when going through a breakup.
+
+Where can you find Google Trends search data? Provide the URL.
+https://trends.google.com/trends/
+ 
+The article concluded that “milkshakes take the crown as the ultimate breakup food,
+topping the list in six states.” Pull up Google Trends data on Milkshake (beverage) and
+change the date range to February 1, 2024 through February 28, 2025.
+a) What is the highest peak recorded in the line chart for “Interest over time”?
+b) What is the lowest dip recorded?
+The date with the highest peak recorded is February 2-8th
+The lowest dip recorded is December 22nd-28th 2024 and November 3rd-9th and November 24th-30th
+
+At the top next to the box for “Milkshake,” there is a plus sign to add another search
+term. Click the plus sign to add a search for Hamburger (Food).
+a) What is the highest peak recorded for searches using Hamburger? What is the
+lowest dip?
+b) What happened to the line for Milkshake? What do the high and low look like now?
+May 26th-June 1st and June 30th-July 6th is the highest recorded peak for hamburgers.
+The lowest recorded dip is Nov 3rd-Nov 9th and Nov 24th- 30th
+The line for milkshake looks like it is "straightening out" compared to before. 
+The high and low is the same, but it is harder to tell just by looking at the line. 
+
+Why did the line for Milkshake change? Hint: Click on the icon next to “Interest
+over time” for more information about how trend results are displayed. 
+The line for milkshake dipped during June 30th-July 6th and May 26th-June 1st is because that is when it is America's independence Day, as well as Memorial Day, and typically Americans celebrate those holidays by having cookouts. While you can have milkshakes at a cookout, it is not a common beverage item to drink during these holidays when going to a cookout
+ 
+
+Add a third term to your search, this time for Breakup (Topic).
+a) Do you see any patterns that suggest a relationship between searches for Breakup
+and Hamburger?
+b) How about between Breakup and Milkshake?
+I am trying to see a pattern between those variables, but I don't see one.
+I think when breakup is at its peak, the interests in ice cream and hamburgers go up, but not that much compared to the other peaks (excluding outliers)
+
+What does all of this suggest about the reliability of the conclusions reached in the
+article?
+This suggests that the article may have been slightly exaggerated.
+ 
+At the upper right of Google Trends, click on the link for “Back to Classic Explore.”
+Notice that this view includes a section for “Compared breakdown by subregion.”
+a) What was the top state by interest for Milkshake?
+b) What was the top state by interest for Hamburger? 
+I had trouble accessing the new classic explore page to compare
+
