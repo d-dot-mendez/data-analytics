@@ -1,0 +1,30 @@
+
+
+1. What conclusion can you reach about the responses to this question?
+	1) It says 50 percent of the participants answered "minutes before class" which does not tell me anything. That literally does not make sense. The participants were most likely 	restating their answers so this tells me there is a bug in the system as it thought "minutes before class" was an actual answer. 
+	2) Most of the participants answered no so that tells me they are unprepared-possibly due to them  not knowing. 
+	3) Most of the participants answered no which tells me that they are either content with just using a laptop or they are unprepared.
+	4) Seeing how this classroom is virtual and many things are done online, the participants may have found alternate methods to take notes than the traditional way of writing things 	down via pen and paper.
+	5) There seems to be a lot of concern about AI as many participants are wondering how will AI be used in the workplace. With AI becoming more and more incorporated into our daily 	lives, many people fear that AI will replace them. I think people are curious as to what type of jobs they can get with Data Analytics in this new AI age. Or they are wondering how 	will AI change the workplace as the way we used to work is no longer the same due to the advancement of technology (ie AI) changing things. 
+
+
+
+
+2. Is the default summary or visualization helpful? How could it be improved?
+	Yes it is helpful, however, one improvement it needs is removing the "other" feature for certain questions. Question number 3 asks if the participants have an external mouse and 	keyboard. It is a yes or no question yet there is an "other" option which does not make sense. If the participants have an "other" option than an external keyboard and mouse, the 	that means the answer to the question is no, making the "other" option redundant. A good amount of participants answered this question which tells me that there is some confusion to 	this question. This affects the visualization because it slightly skews the data which affects the graphs.
+
+
+3. For questions with an “Other” option, where can you find the actual text of those
+responses? Do you notice anything that might be tricky about analyzing these?
+	If you click "More details" you can see many of the responses, if not all, and that is where some of the participants wrote their response which clarifies their answer and why they 	chose "other". For instance, for question number three, one of the participants said they had a mouse but not an external keyboard. Because the question was presented as a yes or no 	question, it is unclear how to properly categorize those who only have one of the required items.
+
+
+4. For questions calling for a written response, what challenges do you notice about
+finding trends or patterns in the answers provided?
+	It is hard for the system to properly tell which answer is actually the most stated, because it counts the portion of the answer that is restating the question, as an actual answer. 
+
+
+5. Now that you can see the responses, how might you recommend rephrasing this or
+question or the response options in a future survey? 
+I would split some questions into two. For example, "do you have an external keyboard and mouse" would become "Do you have an eternal keyboard?", "Do you have a mouse?"
+I would ask "Which do you think is the best thing to do five minutes before class?" And have multiple choice options. It does remove a lot of insight by having the participants choose an answer rather than coming up with one on their own, but I would prefer that since the system does not yet know how to differentiate a participant restating their answer from the participant actually giving their answer.

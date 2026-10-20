@@ -1,0 +1,3 @@
+/*
+I think the purpose of Sakila is to store information for a store that rents movies.
+*/
