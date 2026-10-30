@@ -1,0 +1,110 @@
+USE northwind;
+SELECT database(); 
+
+/* 1. Write a query to find the price of the cheapest item that Northwind sells. Then write a
+second query to find the name of the product that has that price 
+
+The cheapest product northwind sells is geitost for 2.50
+*/ 
+SELECT MIN(UnitPrice) AS 'Cheapest Price'
+FROM products;
+	
+SELECT ProductName, UnitPrice
+FROM products
+WHERE UnitPrice = 2.50;
+
+/* 2. Write a query to find the average price of all items that Northwind sells.
+(Bonus: Once you have written a working query, try asking Claude or ChatGPT for help
+using the ROUND function to round the average price to the nearest cent.) 
+
+The average price of all the items Northwind sells is 28.87.
+*/ 
+
+SELECT AVG(UnitPrice) AS 'Average'
+FROM products;
+
+SELECT round(AVG(UnitPrice), 2) AS 'Average'
+FROM products; 
+
+/*3. Write a query to find the price of the most expensive item that Northwind sells. Then
+write a second query to find the name of the product with that price, plus the name of
+the supplier for that product. 
+
+The most expensive item Northwind sells is an item called 
+'Cte de Blaye', selling at 263.50. This item is supplied by 
+Aux joyeux.
+*/
+
+SELECT max(UnitPrice)
+FROM products;
+
+SELECT ProductName, UnitPrice, CompanyName
+FROM products
+JOIN suppliers ON products.SupplierID = suppliers.SupplierID
+WHERE UnitPrice= 263.50;
+
+SELECT ProductName, UnitPrice, CompanyName
+FROM products
+JOIN suppliers ON products.SupplierID = suppliers.SupplierID
+WHERE UnitPrice = (SELECT MAX(UnitPrice) FROM products);
+
+/* 4. Write a query to find total monthly payroll (the sum of all the employees’ monthly
+salaries). 
+The sum of the monthly salaries is 20,362.93.
+*/ 
+SELECT sum(Salary)
+FROM employees;
+
+/* 5. Write a query to identify the highest salary and the lowest salary amounts which any
+employee makes. (Just the amounts, not the specific employees!)
+
+*/ 
+
+SELECT MAX(Salary), MIN(Salary)
+FROM employees;
+
+/*6. Write a query to find the name and supplier ID of each supplier and the number of
+items they supply. Hint: Join is your friend here
+*/
+
+SELECT CompanyName, suppliers.SupplierID, COUNT(ProductName) AS 'NUMBER OF PRODUCTS'
+FROM suppliers
+LEFT JOIN products ON suppliers.SupplierID = products.SupplierID
+GROUP BY CompanyName, Suppliers.SupplierID;
+
+/* 8. Write a query to find the list of all category names and the average price for items in
+each category
+
+*/
+
+SELECT CategoryName, 
+	categories.CategoryID, 
+	AVG(UnitPrice) AS 'Average Price'
+FROM categories
+LEFT JOIN products 
+	ON categories.CategoryID = products.CategoryID
+GROUP BY CategoryName, categories.CategoryID;
+
+/* 8. Write a query to find, for all suppliers that provide at least 5 items to Northwind, what
+is the name of each supplier and the number of items they supply.
+
+*/
+
+SELECT CompanyName, COUNT(ProductID)
+FROM suppliers
+LEFT JOIN products
+	ON suppliers.SupplierID = products.SupplierID
+GROUP BY CompanyName
+HAVING COUNT(ProductID) >= 5;
+
+/* 9. Write a query to list products currently in inventory by the product id, product name,
+and inventory value (calculated by multiplying unit price by the number of units on
+hand). Sort the results in descending order by value. If two or more have the same
+value, order by product name. If a product is not in stock, leave it off the list
+
+*/
+
+SELECT ProductID, ProductName,(UnitPrice*UnitsInStock) AS Inventory_Value
+FROM products
+WHERE UnitsInStock > 0 
+ORDER BY Inventory_Value DESC, ProductName;
